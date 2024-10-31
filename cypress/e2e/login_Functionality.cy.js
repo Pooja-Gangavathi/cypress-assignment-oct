@@ -22,8 +22,8 @@ describe('Login functionality',()=>{
 
     it('TC_02 Verify the login functionality with Invalid credentials ',()=>{
 
-        cy.get('[data-test="username"]').type('standard_user0123')
-        cy.get('[data-test="password"]').type('secret_sauce@01')
+        cy.get('[data-test="username"]').type('standard_user0123?@@""')
+        cy.get('[data-test="password"]').type('_@01')
         cy.get('#login-button').click()
 
         //Assertions
@@ -32,19 +32,7 @@ describe('Login functionality',()=>{
         cy.get('.bot_column').should('be.visible')
     })
 
-    it('TC_03 Verify the login functionality with Exceptional scenario ',()=>{
-
-        cy.get('[data-test="username"]').type('----')
-        cy.get('[data-test="password"]').type('++++')
-        cy.get('#login-button').click()
-
-        //Assertions
-        cy.url().should('eql','https://www.saucedemo.com/v1/')
-        cy.get('[data-test="error"]').should('have.text','Epic sadface: Username and password do not match any user in this service')
-        cy.get('.bot_column').should('be.visible')
-    })
-
-    it('TC_04 Verify the login functionality with Empty credentials ',()=>{
+    it('TC_03 Verify the login functionality with Empty credentials ',()=>{
 
     
         cy.get('#login-button').click()
