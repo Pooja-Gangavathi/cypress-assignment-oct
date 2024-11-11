@@ -37,7 +37,7 @@ npm install cypress --save-dev
    ```bash
    npx cypress open
    ```
-##Follow the below steps to run the testcase by Cypress Runner,
+## Follow the below steps to run the testcase by Cypress Runner,
 
 1.*Select the Scaffold file in the project directory.*
 2.*Select any of the browser when prompted by Cypress runner.*
