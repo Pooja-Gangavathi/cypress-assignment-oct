@@ -1,6 +1,6 @@
 # Cypress Demo Test
 
-This repository is built using [Cypress](https://www.cypress.io/). The tests cover various user interactions and workflows, ensuring the application's functionality and reliability.
+This repository contains Cypress automation test for [Saucedemo](https://www.saucedemo.com/v1/) website. The test cases are designed to cover and execute automation for positive, negative and exceptional usecases.
 
 ## Prerequisites
 
@@ -17,10 +17,13 @@ Before running the tests, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/Pooja-Gangavathi/cypress_demo_test.git
+    ```
+   Then change the directory,
+   ```bash
    cd cypress_demo_test
    ```
 
-2. **Install cypress:**
+3. **Install cypress:**
 
 Install Cypress as a development dependency.
 ```bash
@@ -37,23 +40,15 @@ npm install cypress --save-dev
 
 4. **Run Tests in Headless Mode:**
 
-   To run tests in the terminal without opening the Cypress GUI, use:
-
-   ```bash
-   npx cypress run
-   ```
-
-## Viewing Test Reports
-
+To run tests in the terminal without opening the Cypress GUI.
 Cypress generates reports for test results. To view them:
 
-**Run tests to view the report** 
-
    ```bash
    npx cypress run
    ```
-   which will create test report of pass and fail test.
+which will create test report of pass and fail test.
 
+   
 This README should guide you through setting up, running, and reporting on your tests in the `cypress_demo_test` repository.
 
 
