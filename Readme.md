@@ -38,6 +38,11 @@ npm install cypress --save-dev
    npx cypress open
    ```
 
+1.Select the Scaffold file in the project directory.
+2.Select any of the browser when prompted by Cypress runner.
+3.Select "Okay, I got" it to continue.
+4.Choose the Login_Functionalty.cy.js file to run from the displayed list,Cypress will start running the test case automatically.
+
 4. **Alternatively, to run Tests in Headless Mode:**
 
 To run tests in the terminal without opening the Cypress GUI.
