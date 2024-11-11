@@ -38,7 +38,7 @@ npm install cypress --save-dev
    npx cypress open
    ```
 
-4. **Run Tests in Headless Mode:**
+4. **Alternatively, to run Tests in Headless Mode:**
 
 To run tests in the terminal without opening the Cypress GUI.
 Cypress generates reports for test results. To view them:
