@@ -51,10 +51,6 @@ Run the below code in the code editor, which will create test report of pass and
    ```bash
    npx cypress run
    ```
-   
-This README should guide you through setting up, running, and reporting on your tests in the `cypress_demo_test` repository.
-
-
 
 
 ## Manual testcase spreadsheet
