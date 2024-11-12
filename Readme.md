@@ -7,7 +7,6 @@ This repository contains Cypress automation test for [Saucedemo](https://www.sau
 Before running the tests, ensure you have the following installed:
 
 - **Node.js** (v12 or later)
-- **npm** (comes with Node.js)
 - **Cypress** (install via npm or yarn)
 - **Git** (to clone the repository)
 
