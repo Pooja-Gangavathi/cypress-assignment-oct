@@ -40,7 +40,7 @@ describe('Login functionality',()=>{
 
     
         cy.get('#login-button').click()
-
+        
         //Assertions
         cy.url().should('eql','https://www.saucedemo.com/v1/')
         cy.get('[data-test="error"]').should('have.text','Epic sadface: Username is required','be.visible')
