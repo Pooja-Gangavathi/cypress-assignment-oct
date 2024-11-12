@@ -12,26 +12,28 @@ Before running the tests, ensure you have the following installed:
 
 ## Getting Started
 
-1. **Clone the repository:**
-
+1. **To Clone the repository:**
+Execute the below command in the code editor terminal,
+ 
    ```bash
    git clone https://github.com/Pooja-Gangavathi/cypress-assignment-oct.git
     ```
-   Then change the directory,
+Then change the directory,
    ```bash
    cd cypress-assignment-oct
    ```
 
-3. **Install cypress:**
+3. **To Install cypress:**
+Execute the below command,
 
 Install Cypress as a development dependency.
 ```bash
 npm install cypress --save-dev
  ```
 
-3. **Open Cypress Test Runner:**
+3. **To Open Cypress Test Runner:**
 
-   Use the following command to open Cypress's graphical interface to view and run tests interactively:
+   Use the following command to open Cypress's graphical interface to view and run tests,
 
    ```bash
    npx cypress open
