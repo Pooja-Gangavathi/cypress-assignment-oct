@@ -3,7 +3,7 @@ describe('Login functionality',()=>{
     beforeEach(()=>{
         cy.visit('https://www.saucedemo.com/v1/')
     })
-
+    
     it('TC_01 Verify the login functionality with valid credentials ',()=>{
 
         cy.get('.login_logo').should('be.visible')// Validate the Home page
@@ -19,6 +19,7 @@ describe('Login functionality',()=>{
         cy.url().should('not.equal','https://www.saucedemo.com/v1/inventory.html')
         cy.go('forward')
         cy.get('.app_logo').should('be.visible')
+
 
     })
 
@@ -44,6 +45,8 @@ describe('Login functionality',()=>{
         cy.url().should('eql','https://www.saucedemo.com/v1/')
         cy.get('[data-test="error"]').should('have.text','Epic sadface: Username is required','be.visible')
         cy.get('.bot_column').should('be.visible')
+        
     })
+
 
 })
