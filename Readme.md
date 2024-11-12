@@ -1,4 +1,4 @@
-# Cypress Demo Test
+# cypress-assignment-oct
 
 This repository contains Cypress automation test for [Saucedemo](https://www.saucedemo.com/v1/) website. The test cases are designed to cover and execute automation for positive, negative and exceptional usecases.
 
