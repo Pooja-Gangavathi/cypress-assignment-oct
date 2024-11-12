@@ -16,11 +16,11 @@ Before running the tests, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Pooja-Gangavathi/cypress_demo_test.git
+   git clone https://github.com/Pooja-Gangavathi/cypress-assignment-oct.git
     ```
    Then change the directory,
    ```bash
-   cd cypress_demo_test
+   cd cypress-assignment-oct
    ```
 
 3. **Install cypress:**
