@@ -26,7 +26,7 @@ Then change the directory,
 3. **To Install cypress:**
 Execute the below command,
 
-Install Cypress as a development dependency.
+Install Cypress as a development dependency.<! Please go through this line again. >
 ```bash
 npm install cypress --save-dev
  ```
